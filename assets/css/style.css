@@ -1,0 +1,21 @@
+/*NAVBAR STUFF*/
+.navbar-default {
+	background-color: #ffffff;
+	border: none;
+	border-bottom: 2px solid #cccccc;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+#navbar-brand-override {
+	margin: 0px 0px 0px 5%;
+	width: 230px;
+	background-color: #4aaaa5;
+	color: #f5f4f0;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+#navbar-links-override {
+	font-weight: bold;
+	float: right;
+}
+/*NO MORE NABAR STUFF*/
