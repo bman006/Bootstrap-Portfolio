@@ -12,7 +12,7 @@ p {
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 #navbar-brand-override {
-	margin: 0px 0px 0px calc(46px + 8.33333333%);
+	margin: 0;
 	width: 230px;
 	background-color: #4aaaa5;
 	color: #f5f4f0;
