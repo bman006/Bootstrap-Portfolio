@@ -1,3 +1,9 @@
+body {
+	background-image: url("../images/background.png");
+}
+p {
+	text-align: left;
+}
 /*NAVBAR STUFF*/
 .navbar-default {
 	background-color: #ffffff;
@@ -6,7 +12,7 @@
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 #navbar-brand-override {
-	margin: 0px 0px 0px 5%;
+	margin: 0px 0px 0px calc(46px + 8.33333333%);
 	width: 230px;
 	background-color: #4aaaa5;
 	color: #f5f4f0;
@@ -19,3 +25,57 @@
 	float: right;
 }
 /*NO MORE NABAR STUFF*/
+.panel {
+	background-color: #fff;
+	border: 1px solid #dddddd;
+}
+.panel-default>.panel-heading {
+	background-color: inherit;
+	border-bottom: 3px solid #ccc;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.panel-heading h2{
+	color: #4aaaa5;
+	font-size: 2em;
+	font-weight: bold;
+}
+.panel-body img{
+	width: 200px;
+	margin: 0px 20px 10px 0px;
+}
+.panel-body>img {
+	float: left;
+}
+.panel-heading h3{
+	color: #4aaaa5;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.panel-body>a>img{
+	width: 40px;
+	margin: 0;
+	padding: 0 1px 0 1px;
+}
+.panel-heading>h3, div>.panel-body{
+	text-align: center;
+}
+.connect-with-me>.panel>.panel-body {
+	padding: 15px 0px 15px 0px;
+}
+.connect-with-me>.panel>.panel-heading {
+	padding: 0;
+}
+footer {
+	clear: both;
+	widows: 100%;
+	height: 30px;
+	padding:5px 0px 0px 0px;
+	background-color: #666666;
+	color: #ccc;
+	font-size: 0.75em;
+	text-align: center;
+	vertical-align: middle;
+	border-top: 5px solid #4aaaa5;
+	z-index: 1000;
+}
