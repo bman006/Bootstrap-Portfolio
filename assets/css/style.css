@@ -80,12 +80,6 @@ div.panel-heading>h3, div.panel-body{
 		text-align: left;
 	}
 }
-.connect-with-me>.panel>.panel-body {
-	padding: 15px 0px 15px 0px;
-}
-.connect-with-me>.panel>.panel-heading {
-	padding: 0;
-}
 .portfolio img,.portfolio h4{
 	width: 300px;
 }
