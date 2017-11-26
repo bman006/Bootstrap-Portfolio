@@ -84,15 +84,14 @@ div.panel-heading>h3, div.panel-body{
 	width: 300px;
 }
 .portfolio h4{
-	margin: 0;
+	position: relative;
+	bottom: 45px;
+	margin: 0 auto 0 auto;
 	padding: 5px 0 5px 0;
 	background-color: #4aaaa5;
 	color: #f5f4f0;
 	font-weight: bold;
 }
-.portfolio a{
-	align-content: center; 
-}
-.portfolio-pictures>h4 {
+section.portfolio-pictures {
 	text-align: center;
 }
