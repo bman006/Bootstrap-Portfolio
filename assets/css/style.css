@@ -55,7 +55,7 @@ footer {
 	font-size: 2em;
 	font-weight: bold;
 }
-#profile-picture img{
+#profile-picture {
 	width: 200px;
 	margin: 0px 20px 10px 0px;
 }
@@ -72,8 +72,13 @@ footer {
 	margin: 0;
 	padding: 0 1px 0 1px;
 }
-.panel-heading>h3, div>.panel-body{
+div.panel-heading>h3, div.panel-body{
 	text-align: center;
+}	
+@media screen and (max-width: 991px	){
+	div.panel-heading>h3, div.panel-body{
+		text-align: left;
+	}
 }
 .connect-with-me>.panel>.panel-body {
 	padding: 15px 0px 15px 0px;
